@@ -2,20 +2,45 @@
 
 nav {
   background-color: black;
+  height: 80px;
+  padding-top: 0;
+  color: white;
 }
 
-nav .col-lg-4 {
+nav .container {
   text-align: center;
 }
 
-nav .social > li {
-  float: left;
+nav .col-lg-8 {
+  font-size: 15px;
 }
 
-nav ul > li > a {
-  color: white;
+nav .col-lg-8 a.nav-link {
+  font-size: 30px;
 }
 
-nav ul > li > i {
-  color: white;
+nav ul > li a {
+  color: inherit;
+}
+
+nav ul #social {
+  display: flex;
+  text-align: center;
+}
+
+nav ul #social div {
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: inline-block;
+}
+
+nav > .container a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+nav > .container #social a:hover {
+  text-decoration: none;
+  color: gold;
 }
