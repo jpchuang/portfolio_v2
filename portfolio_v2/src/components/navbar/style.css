@@ -1,0 +1,21 @@
+/* Navbar */
+
+nav {
+  background-color: black;
+}
+
+nav .col-lg-4 {
+  text-align: center;
+}
+
+nav .social > li {
+  float: left;
+}
+
+nav ul > li > a {
+  color: white;
+}
+
+nav ul > li > i {
+  color: white;
+}
