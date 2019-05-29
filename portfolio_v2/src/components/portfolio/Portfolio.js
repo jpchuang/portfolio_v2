@@ -7,11 +7,11 @@ import drone from "../../images/drone-lingo.jpg";
 class Portfolio extends Component {
   render() {
     return (
-      <div id="content" className="content">
-        <div className="container mx-0" id="first">
-          <div className="row">
+      <div id="content" className="content-portfolio">
+        <div className="container mx-0 pt-5" id="first-portfolio">
+          <div className="row" id="content-portfolio-1">
             <div className="col-lg-4" id="first-thumb">
-              <a href="#">
+              <Link to="/portfolio/project-drone">
                 <div className="card">
                   <div className="card-body">
                     <img
@@ -25,7 +25,7 @@ class Portfolio extends Component {
                     <p>Text-description</p>
                   </div>
                 </div>
-              </a>
+              </Link>
             </div>
             <div className="col-lg-4" id="second-thumb">
               <a href="#">

@@ -36,12 +36,22 @@ const Navbar = props => {
           >
             <ul className="navbar-nav mx-auto">
               <li className="nav-item">
-                <Link to="/about" className="nav-link">
+                <Link
+                  to="/about"
+                  className="nav-link"
+                  data-toggle="collapse"
+                  data-target="#navbarSupportedContent.show"
+                >
                   About
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/portfolio" className="nav-link">
+                <Link
+                  to="/portfolio"
+                  className="nav-link"
+                  data-toggle="collapse"
+                  data-target="#navbarSupportedContent.show"
+                >
                   Projects
                 </Link>
               </li>

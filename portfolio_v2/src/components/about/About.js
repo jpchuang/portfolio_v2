@@ -6,7 +6,7 @@ const About = props => {
     <div id="content" className="content">
       <div className="container mx-0" id="first">
         <div className="row">
-          <h1>Hello, It is me. Your Boy</h1>
+          <h1>Under Construction</h1>
         </div>
       </div>
     </div>
